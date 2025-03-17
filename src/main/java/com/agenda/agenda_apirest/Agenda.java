@@ -6,7 +6,7 @@ public class Agenda {
     private String nombre;
     private ArrayList<Nota> notas = new ArrayList<>();
     static Scanner sc = new Scanner(System.in);
-    public static void main(String[] args){
+    /*public static void main(String[] args){
         Nota notanashei = new Nota();
         notanashei.setTitulo("pedro");
         notanashei.setTexto("BLABALBALABLAABLBABALBLABLALBALBLABLLALBABLABL");
@@ -15,11 +15,7 @@ public class Agenda {
         Agenda ag = new Agenda();
         ag.agregarNota(notanashei);
         ag.listarNotas();
-    }
-
-    /*public Agenda(Nota nota){
-        agregarNota(nota);
-    }*/
+    } */
 
     public void agregarNota(Nota nota){
         notas.add(nota);
@@ -66,13 +62,5 @@ public class Agenda {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-
-    /*public ArrayList<Nota> getNotas() {
-        return notas;
-    }
-
-    public void setNotas(ArrayList<Nota> notas) {
-        this.notas = notas;
-    }*/
 
 }
