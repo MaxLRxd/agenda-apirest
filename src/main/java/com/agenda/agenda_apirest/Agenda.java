@@ -35,26 +35,6 @@ public class Agenda {
 
     }
 
-    public int searchContact(String nombre){
-
-        return 0;
-    }
-
-    public void listarContactos(){
-
-
-    }
-
-    public void listarContactosAlfa(){
-
-
-    }
-    
-    public void searchTittles(){
-
-        
-    }
-
     public String getNombre() {
         return nombre;
     }
